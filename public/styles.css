@@ -1,0 +1,35 @@
+li {
+        list-style-type: none;
+}
+
+li:hover,
+li:active {
+        background-color: #aaaaaa;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 50px;
+        padding: 0px;
+}
+
+.grid-item {
+        background-color: white;
+        outline: 1px solid black;
+        font-family: helvetica;
+        font-weight: bold;
+        text-align: left;
+        padding: 20px;
+}
+
+.errorMessage {
+        color: red;
+        font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+        .grid-container {
+                grid-template-columns: auto;
+        }
+}

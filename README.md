@@ -29,11 +29,21 @@ If the installation was successful, you should be able to run the following comm
 
 For this app to run you will need to run 2 commands in 2 seperate terminal windows.
 
-## Running the Express server
+## Running Express server
 
     $ npm run start
 
-## Running the Frontend Build Server
+With this server running if you visit [http://localhost:3000/getData](http://localhost:3000/getData) you should see the sample response:
+
+```bash
+{"data":[{"title":"This is a title."},{"title":"This is another title."}]}
+```
+
+## Running Build Server
 
     $ npm run react-dev
+
+With this server running if you visit [http://localhost:3000/](http://localhost:3000/) you should see a simple html page:
+
+![Preview](preview.png?raw=true "Preview")
 
